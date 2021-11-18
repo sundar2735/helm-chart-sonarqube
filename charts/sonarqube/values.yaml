@@ -46,7 +46,7 @@ elasticsearch:
   bootstrapChecks: true
 
 service:
-  type: ClusterIP
+  type: LoadBalancer
   externalPort: 9000
   internalPort: 9000
   labels:
